@@ -51,6 +51,7 @@
             </div>
           </div>
 
+          <Footer />
 
           <CodeModal :visible="codeVisible" @close="codeVisible = false" />
 
@@ -98,6 +99,7 @@ import VueColorAvatar, {
 import { ActionType } from '@/enums'
 import { useAvatarOption } from '@/hooks'
 import Container from '@/layouts/Container.vue'
+import Footer from '@/layouts/Footer.vue'
 import Header from '@/layouts/Header.vue'
 import Sider from '@/layouts/Sider.vue'
 import { useStore } from '@/store'
