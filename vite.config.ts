@@ -18,7 +18,6 @@ export default defineConfig(({ mode }) => ({
         ]
       : []),
   ],
-  base: '/avatar/',
 
   resolve: {
     alias: {
