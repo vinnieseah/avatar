@@ -16,8 +16,7 @@
     "lint:ts": "tsc --noEmit --skipLibCheck",
     "prepare": "husky install",
     "preview": "vite preview",
-    "test": "jest",
-    "deploy": "gh-pages -d dist"
+    "test": "jest"
   },
   "dependencies": {
     "canvas-confetti": "^1.4.0",
@@ -39,7 +38,7 @@
     "@types/object-hash": "^2.2.1",
     "@typescript-eslint/eslint-plugin": "^5.11.0",
     "@typescript-eslint/parser": "^5.11.0",
-    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue": "^2.1.0",
     "babel-jest": "^27.2.5",
     "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
@@ -47,7 +46,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-vue": "^8.4.1",
-    "gh-pages": "^6.2.0",
     "husky": "^7.0.2",
     "jest": "^27.2.5",
     "lint-staged": "^12.3.3",
@@ -62,7 +60,7 @@
     "stylelint-prettier": "^2.0.0",
     "stylelint-scss": "^4.1.0",
     "typescript": "^4.5.5",
-    "vite": "^5.4.8",
+    "vite": "^3.0.3",
     "vue-tsc": "^0.31.2"
   }
 }
